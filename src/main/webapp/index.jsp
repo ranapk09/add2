@@ -41,7 +41,7 @@ input[type=text], input[type=password] {
 	box-sizing: border-box;
 }
 
-button {
+input[type=button] {
 	background-color: #4CAF50;
 	color: white;
 	padding: 14px 20px;
@@ -51,7 +51,7 @@ button {
 	width: 100%;
 }
 
-button:hover {
+input[type=button]:hover {
 	opacity: 0.8;
 }
 
@@ -76,12 +76,8 @@ button:hover {
 			<br> <input type="text" placeholder="Enter another number"
 				name="input2" required>
 
-			<button id="add" type="button" font size="6">=</button>
+			<input type="button" id="add" font size="6">=</input>
 
-		</div>
-
-		<div class="container" style="background-color: #f1f1f1">
-			<input type="text" name="sum" readonly="readonly">
 		</div>
 	</form>
 
