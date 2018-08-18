@@ -76,7 +76,7 @@ input[type=button]:hover {
 			<br> <input type="text" placeholder="Enter another number"
 				name="input2" required>
 
-			<input type="button" id="add" font size="6">=</input>
+			<input type="button" id="add" font size="6" value="="></input>
 
 		</div>
 	</form>
