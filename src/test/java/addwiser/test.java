@@ -5,10 +5,7 @@ import org.junit.*;
 public class test {
 	private add Add ;
 	
-	@Before
-	public void setup() {
-		Add = new add() ;
-	}
+	
 
 	@Test
 	public void sumofnoifnull() {
