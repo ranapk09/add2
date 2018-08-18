@@ -64,7 +64,7 @@ input[type=button]:hover {
 	<br>
 	<br>
 	<h1>Addition of two numbers</h1>
-	<form name="form" method="post" action="AdditionServlet">
+	<form name="form" method="post" action="./add.jsp">
 		<div class="container">
 
 			<input type="text" placeholder="Enter a number" name="input1"
