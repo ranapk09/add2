@@ -6,7 +6,7 @@ function check() {
         alert("please enter both numbers");
         return false;
     } else {
-        document.f1.submit();
+        //document.f1.submit();
     }
 }</script>
 
